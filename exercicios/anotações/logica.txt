@@ -1,0 +1,155 @@
+
+
+
+
+1- elaborar uma função que recebe array de numeros;
+2- retornar um array todos os numeros pares; 
+3- e que tambem tenha indices pares; 
+
+
+
+
+// divisao de numero par
+
+num % 2 === 0 
+
+
+
+
+
+for(let i = 0; i % 2 === 0 && numero % 2 === 0 ; i++){
+// verifica index par 
+        if(typeof resultado === Number){
+        arr.push(resultado);
+    }
+}
+
+
+    return arr;
+
+
+
+
+
+
+
+// 
+
+    verificar se é divisil por 4, 
+    se não for, não e bissexto
+
+    depois 
+
+    verifica se divide por 100 
+    se não for, não é bissexto
+    
+        por fim verifica se divide por 400 
+
+     se for é bissexto
+     senão, não eh. 
+
+
+
+// divide por 4 ( inteiro );
+// divide por 100 ( inteiro );
+// divide por 400 ( inteiro );
+
+
+ideia principal 
+
+fazer um if para ver se é divisivel por 4, 
+se for, pega o numero e divide por 100, 
+se for pega o numero e divide por 400; 
+
+return bissexto;
+
+
+se for divisel por 4 e não pelos outros = bissexto;
+se for divisivel por 4 e 100 e NAO por 400 = normal;
+se for divisivel por tudo = bissexto;
+
+
+
+if(number % 4 === 0 && !number % 100 === 0 && !number % 400 === 0){
+ alert("ano bissexto.");
+} else if(number % 4 === 0 && number % 100 === 0 && !number % 400 === 0){
+    alert("ano normal.");
+} else if (number % 4 === 0 && number % 100 === 0 && number % 400 === 0){
+    alert("ano bissexto.");
+} else{
+    alert("valor não reconhecido.");
+}
+
+
+
+
+// pegar todo o valor com reduce, 
+
+1 - somar tudo 
+2 - dividir pela quantidade de numeros do array. 
+
+
+
+// Math.round == arredondamento. 
+
+
+Área do triangulo = (base x altura) / 2. 
+
+
+ideia ; 
+
+
+criar um prompt que calcula a área do triangulo; 
+recebe os 2 valores, base e altura, pega o resultado e divide por 2; 
+na hora do return, da o Math.round
+
+
+// na função 
+
+recebe 2 parametros?
+
+
+
+//
+
+ criar um função que retorna menor valor dentro do array 
+// usar o Math.min. 
+
+
+
+
+como? spread
+
+
+
+
+// exericico do Math.random;
+
+
+function que recebe um numero;
+
+numero === numero sorteeado; 
+
+
+
+// criar uma função que receba 2 parametros 
+
+1- uma palavra; 
+2- um array de strings;
+
+
+objetivo: filtrar as palavras do array que contém strings do primeiro parametro; 
+
+
+
+
+
+criar um função, que recebe 2 parametros 
+
+1- um array de numeros; 
+2- numero que mostra quantidade exibida no numeros; 
+
+
+
+
+
